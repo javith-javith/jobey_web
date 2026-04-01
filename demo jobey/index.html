@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jobey – Part-Time Jobs & Gig Work in India</title>
+  <meta name="description" content="Jobey connects Workers with Recruiters for short-term gig opportunities across India. Find flexible part-time work or hire instantly." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,500;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- Back to Top -->
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+  <!-- Mobile Menu Overlay -->
+  <div id="mobile-menu" class="mobile-menu">
+    <button id="mobile-close" class="mobile-close" aria-label="Close menu">✕</button>
+    <nav class="mobile-nav">
+      <a href="#about"  class="mob-link">About us</a>
+      <a href="#how"    class="mob-link">How it Works</a>
+      <a href="#features" class="mob-link">Features</a>
+      <a href="#terms"  class="mob-link">Terms</a>
+      <a href="#privacy" class="mob-link">Privacy</a>
+      <a href="#contact" class="mob-link">Contact</a>
+    </nav>
+    <a href="#download" class="mob-cta">Get the App →</a>
+  </div>
+  <div id="menu-overlay" class="menu-overlay"></div>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-wrap">
+      <a href="#" class="nav-logo" id="nav-logo">
+        <span class="logo-icon">◉</span> Jobey
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link active-link">About us</a></li>
+        <li><a href="#how" class="nav-link">How it Works</a></li>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#terms" class="nav-link">Terms</a></li>
+        <li><a href="#privacy" class="nav-link">Privacy</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#download" class="nav-cta" id="nav-cta-btn">
+        Get the App <span class="nav-cta-dot">◉</span>
+      </a>
+      <button id="hamburger" class="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="about">
+    <div class="hero-center">
+      <h1 class="hero-h1">
+        Find part-time gigs<br />
+        with <em class="hero-italic">instant matching</em>
+      </h1>
+      <p class="hero-desc">
+        At Jobey, we help Workers find flexible short-term opportunities and<br />
+        Recruiters hire instantly — anywhere across India.
+      </p>
+      <div class="hero-actions">
+        <a href="#download" class="btn-pill-dark" id="hero-btn-start">
+          Get Started <span class="pill-arr">→</span>
+        </a>
+        <div class="hero-trust">
+          <div class="avatars">
+            <div class="ava" style="background:#f4a261">R</div>
+            <div class="ava" style="background:#2a9d8f">K</div>
+            <div class="ava" style="background:#e76f51">S</div>
+            <div class="ava" style="background:#457b9d">A</div>
+          </div>
+          <div class="trust-info">
+            <div class="trust-stars">★★★★★</div>
+            <div class="trust-text">Trusted by 10K+ users</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── LOGOS STRIP ── -->
+  <section class="logos-section">
+    <p class="logos-caption">Loved by 1000+ big and small businesses around the world</p>
+    <div class="logos-row">
+      <span class="logo-brand"><span class="logo-sym">✦</span> RetailPro</span>
+      <span class="logo-brand"><span class="logo-sym">◎</span> QuickHire</span>
+      <span class="logo-brand"><span class="logo-sym">⊕</span> BuildCo India</span>
+      <span class="logo-brand"><span class="logo-sym">❋</span> FoodieChain<sup>+</sup></span>
+      <span class="logo-brand"><span class="logo-sym">⟡</span> SwiftLogix</span>
+    </div>
+  </section>
+
+  <!-- ── FUSE SECTION ── -->
+  <section class="fuse-section" id="how">
+    <div class="fuse-wrap">
+      <p class="fuse-line">
+        We fuse
+        <span class="fuse-tag tag-purple">⚡ Workers</span>
+        &amp;
+        <span class="fuse-tag tag-blue">🏢 Recruiters</span>
+        &amp;
+        <span class="fuse-tag tag-orange">💼 Opportunity</span>
+      </p>
+      <p class="fuse-sub">
+        to create flexible, fast, and fair short-term gig employment<br />
+        across every city in India — powered by smart technology.
+      </p>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats-row">
+      <div class="stat-box">
+        <span class="stat-num"><sup class="stat-plus">+</sup>10K</span>
+        <span class="stat-label">Active Workers</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num"><sup class="stat-plus">+</sup>500</span>
+        <span class="stat-label">Businesses Using Jobey</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num"><sup class="stat-plus">+</sup>25</span>
+        <span class="stat-label">Cities Covered</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SERVICES ── -->
+  <section class="services-section" id="features">
+    <div class="services-header">
+      <h2 class="services-h2">
+        Where flexibility<br />
+        meets <em class="services-italic">opportunity</em>
+      </h2>
+    </div>
+    <div class="services-grid">
+      <div class="svc-card svc-purple" id="svc-1">
+        <div class="svc-icon">⚡</div>
+        <div class="svc-name">Instant<br />Matching</div>
+      </div>
+      <div class="svc-card svc-blue" id="svc-2">
+        <div class="svc-icon">🛡️</div>
+        <div class="svc-name">Verified<br />Profiles</div>
+      </div>
+      <div class="svc-card svc-orange" id="svc-3">
+        <div class="svc-icon">📍</div>
+        <div class="svc-name">Location-<br />Based Gigs</div>
+      </div>
+      <div class="svc-card svc-green" id="svc-4">
+        <div class="svc-icon">📊</div>
+        <div class="svc-name">Earnings<br />Tracker</div>
+      </div>
+      <div class="svc-card svc-pink" id="svc-5">
+        <div class="svc-icon">🤝</div>
+        <div class="svc-name">Safe<br />Payments</div>
+      </div>
+    </div>
+
+    <!-- Dark CTA Strip -->
+    <div class="dark-strip">
+      <div class="dark-strip-left">
+        <p class="dark-strip-title">Start finding gigs or hiring workers — today.</p>
+        <p class="dark-strip-sub">Join thousands of workers and recruiters on Jobey.</p>
+      </div>
+      <div class="dark-strip-right">
+        <a href="#download" class="strip-btn" id="strip-btn-collab">Get the App <span class="strip-dot">◉</span></a>
+        <a href="#features" class="strip-btn strip-btn-outline" id="strip-btn-features">Learn More <span class="strip-dot-outline">◉</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── HOW IT WORKS STEPS ── -->
+  <section class="steps-section">
+    <div class="steps-header">
+      <h2>
+        How we <em class="italic-serif">connect</em> a worker<br />
+        to their perfect gig
+      </h2>
+    </div>
+    <div class="steps-grid">
+      <div class="step-card" id="step-1">
+        <div class="step-num">01</div>
+        <h3>Download &amp; Sign Up</h3>
+        <p>Register as a Worker or Recruiter in under 2 minutes. Verify securely via OTP.</p>
+      </div>
+      <div class="step-card" id="step-2">
+        <div class="step-num">02</div>
+        <h3>Browse or Post Gigs</h3>
+        <p>Workers find nearby part-time jobs. Recruiters post gigs with pay, timing, and role details.</p>
+      </div>
+      <div class="step-card" id="step-3">
+        <div class="step-num">03</div>
+        <h3>Match &amp; Work</h3>
+        <p>Jobey matches workers to gigs instantly. Accept the gig and show up ready to work.</p>
+      </div>
+      <div class="step-card" id="step-4">
+        <div class="step-num">04</div>
+        <h3>Get Paid</h3>
+        <p>Recruiters pay via UPI, bank transfer, or cash. Track all your earnings in the app.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── DOWNLOAD ── -->
+  <section class="download-section" id="download">
+    <div class="download-wrap">
+      <div class="download-tag">📱 Available Now</div>
+      <h2 class="download-h2">
+        Download Jobey &amp;<br />
+        <em class="italic-serif">Start Earning Today</em>
+      </h2>
+      <p class="download-sub">India's fastest part-time gig platform. Free to download.</p>
+      <div class="download-btns">
+        <a href="#" class="dl-btn" id="dl-google">
+          <span class="dl-icon">▶</span>
+          <div><small>Get it on</small><br /><strong>Google Play</strong></div>
+        </a>
+        <a href="#" class="dl-btn" id="dl-apple">
+          <span class="dl-icon">⌘</span>
+          <div><small>Download on</small><br /><strong>App Store</strong></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TERMS & CONDITIONS ── -->
+  <section class="terms-section" id="terms">
+    <div class="terms-top-card">
+      <div class="terms-top-left">
+        <div class="terms-brandline">Jobey · Legal &amp; Compliance</div>
+        <div class="terms-title-row">
+          <div class="terms-shield">🛡️</div>
+          <div>
+            <h2 class="terms-h2">Terms &amp;<br />Conditions</h2>
+            <div class="terms-date">Last Updated: 01 March 2025</div>
+          </div>
+        </div>
+        <p class="terms-intro-text">Jobey operates as a technology intermediary platform connecting Recruiters and Workers for short-term gig opportunities in India.</p>
+        <p class="terms-intro-text">By registering, accessing, or using the platform, you agree to be bound by these Terms and Conditions.</p>
+        <div class="terms-highlights">
+          <div class="th"><span class="th-icon">📄</span> No employer–employee relationship</div>
+          <div class="th"><span class="th-icon">🔒</span> Recruiters are responsible for payments</div>
+          <div class="th"><span class="th-icon">🛡️</span> Workers accept gigs at their own risk</div>
+          <div class="th"><span class="th-icon">⚖️</span> Governed by Indian law (Chennai jurisdiction)</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="terms-body-wrap">
+      <div class="terms-notice-box">
+        <strong>Please read these Terms carefully</strong>
+        <p>They explain your rights and responsibilities when using the Jobey platform.</p>
+      </div>
+      <ol class="terms-list">
+        <li>Jobey is a technology intermediary platform that facilitates connections between Recruiters and Workers. Jobey does not act as an employer, contractor, agent, partner, or representative of any User.</li>
+        <li>Use of the platform does not create any employment, partnership, joint venture, or agency relationship between Jobey and any User.</li>
+        <li>Users must be at least 18 years of age and legally competent to enter into binding agreements under Indian law.</li>
+        <li>All gig payments are solely the responsibility of the Recruiter. Payments may be made manually (including bank transfer, UPI, or cash) or through any future in-app payment system introduced by Jobey.</li>
+        <li>Jobey does not process, hold, or guarantee payments made outside an official in-app secured payment mechanism.</li>
+        <li>Workers acknowledge and agree that payment will only be received if the Recruiter successfully makes payment. Jobey shall not be liable for non-payment, delayed payment, partial payment, chargebacks, or payment disputes.</li>
+        <li>If Jobey introduces an in-app payment or escrow system in the future, such payments shall be governed by additional payment terms and settlement timelines disclosed at that time.</li>
+        <li>Workers are independent contractors and not employees, agents, or representatives of Jobey or any Recruiter.</li>
+        <li>Users are solely responsible for conducting their own due diligence regarding gigs, counterparties, and safety conditions before engagement.</li>
+        <li>Recruiters are strictly prohibited from demanding registration fees, deposits, or unauthorized payments from Workers. Violation may result in immediate suspension and reporting to authorities where applicable.</li>
+        <li>Users shall not post fraudulent, misleading, unlawful, abusive, harmful, or deceptive content. Jobey reserves the right to remove listings or restrict accounts at its sole discretion.</li>
+        <li>Jobey may suspend, terminate, freeze, restrict, or investigate accounts suspected of fraud, misconduct, policy violation, or legal risk without prior notice.</li>
+        <li>Platform fees, service charges, or commissions, if applicable, are non-refundable unless expressly stated by Jobey. Referral rewards are subject to verification and may be withheld or reversed in cases of misuse or fraud.</li>
+        <li>Users agree to resolve disputes directly between themselves. Jobey may, at its sole discretion, review complaints or mediate but is under no obligation to do so.</li>
+        <li>To the maximum extent permitted by law, Jobey's total liability for any claim shall not exceed the platform service fee collected, if any, for the transaction giving rise to the claim.</li>
+        <li>Users agree to indemnify and hold harmless Jobey, its directors, employees, agents, and affiliates from any claims, losses, liabilities, damages, and expenses arising from their use of the platform or violation of these Terms.</li>
+        <li>Jobey shall not be liable for service interruptions, system failures, data transmission errors, force majeure events, third-party service failures, or circumstances beyond reasonable control.</li>
+        <li>Jobey collects personal data including mobile number, profile information, bank details (where required), and identity verification data. Aadhaar details, if used for OTP-based verification, are used solely for identity verification purposes and are not stored permanently. Data is processed in accordance with Jobey's Privacy Policy and applicable Indian laws.</li>
+        <li>Jobey may maintain activity logs, transaction records, and communication data for compliance, fraud prevention, security monitoring, and dispute resolution purposes.</li>
+        <li>Any dispute arising out of or relating to these Terms shall be governed by the laws of India. Parties agree to attempt resolution through arbitration under the Arbitration and Conciliation Act, 1996. Subject to arbitration, courts located in Chennai, Tamil Nadu shall have exclusive jurisdiction.</li>
+        <li>Users may submit grievances through the designated official contact provided in the platform. Jobey will acknowledge complaints within a reasonable timeframe and review them in good faith.</li>
+        <li>Jobey reserves the right to modify, update, suspend, or discontinue any part of the platform or these Terms at its discretion. Continued use constitutes acceptance of the revised Terms.</li>
+        <li>By selecting "I Agree," registering, or using the Jobey platform in any manner, users confirm they have read, understood, and agree to be bound by these Terms and Conditions in their entirety.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ── PRIVACY POLICY ── -->
+  <section class="privacy-section" id="privacy">
+    <!-- Dark header card -->
+    <div class="pp-top-card">
+      <div class="pp-brandline">Jobey · Legal &amp; Compliance</div>
+      <div class="pp-title-row">
+        <div class="pp-shield">🛡️</div>
+        <div>
+          <h2 class="pp-h2">Privacy<br />Policy</h2>
+          <div class="pp-date">Last Updated: 01 March 2025</div>
+        </div>
+      </div>
+      <p class="pp-intro">Jobey operates as a digital job marketplace connecting recruiters and applicants for short-term job engagements within India, currently operating in Chennai, Tamil Nadu.</p>
+      <p class="pp-intro">By accessing or using the Platform, you agree to the collection, use, and disclosure of information in accordance with this Privacy Policy.</p>
+      <div class="pp-highlights">
+        <div class="pp-hl"><span class="pp-hl-icon">🔒</span> No full Aadhaar stored</div>
+        <div class="pp-hl"><span class="pp-hl-icon">🚫</span> No data sold to third parties</div>
+        <div class="pp-hl"><span class="pp-hl-icon">💳</span> Secure payment processing</div>
+        <div class="pp-hl"><span class="pp-hl-icon">⚖️</span> Indian law compliant</div>
+      </div>
+    </div>
+
+    <!-- Accordion body -->
+    <div class="pp-body">
+      <div class="pp-notice">
+        <strong>Your Privacy Matters</strong>
+        <p>Click any section below to read the full details.</p>
+      </div>
+
+      <!-- Accordion item 1 -->
+      <div class="acc-item" id="acc-1">
+        <button class="acc-btn" aria-expanded="false">
+          <span class="acc-icon">🗄️</span>
+          <span class="acc-label">Information We Collect</span>
+          <span class="acc-chevron">›</span>
+        </button>
+        <div class="acc-panel">
+          <div class="acc-content">
+            <p>Jobey collects personal information necessary to provide its services. This may include:</p>
+            <ul class="pp-list">
+              <li>Full name and mobile number verified via OTP</li>
+              <li>Profile photograph</li>
+              <li>Work experience and skills</li>
+              <li>Business details (for recruiters)</li>
+              <li>Masked identification details such as the last four digits of Aadhaar or PAN for verification purposes</li>
+              <li>Bank account details or UPI information to facilitate payouts</li>
+            </ul>
+            <p class="pp-note"><em>Jobey does not store full Aadhaar numbers.</em></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion item 2 -->
+      <div class="acc-item" id="acc-2">
+        <button class="acc-btn" aria-expanded="false">
+          <span class="acc-icon">💳</span>
+          <span class="acc-label">Transaction &amp; Technical Data</span>
+          <span class="acc-chevron">›</span>
+        </button>
+        <div class="acc-panel">
+          <div class="acc-content">
+            <p>We also collect transaction-related and technical information including:</p>
+            <ul class="pp-list">
+              <li>Payment amounts, timestamps, payout records, and payment gateway reference numbers</li>
+              <li>IP address and device information</li>
+              <li>Usage logs to improve platform functionality and prevent fraud</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion item 3 -->
+      <div class="acc-item" id="acc-3">
+        <button class="acc-btn" aria-expanded="false">
+          <span class="acc-icon">🔒</span>
+          <span class="acc-label">Payment Processing</span>
+          <span class="acc-chevron">›</span>
+        </button>
+        <div class="acc-panel">
+          <div class="acc-content">
+            <p>All payments are processed through authorised third-party payment gateways such as <strong>Cashfree</strong> or similar providers. Jobey does <strong>not</strong> store complete card numbers or sensitive banking credentials on its servers. Payment data is handled in accordance with the security standards of the respective payment processor.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion item 4 -->
+      <div class="acc-item" id="acc-4">
+        <button class="acc-btn" aria-expanded="false">
+          <span class="acc-icon">👤</span>
+          <span class="acc-label">How We Use Your Information</span>
+          <span class="acc-chevron">›</span>
+        </button>
+        <div class="acc-panel">
+          <div class="acc-content">
+            <p>Information collected is used to:</p>
+            <ul class="pp-list pp-list-green">
+              <li>Facilitate job postings and applications</li>
+              <li>Process payments and payouts</li>
+              <li>Verify user identity</li>
+              <li>Resolve disputes</li>
+              <li>Prevent fraudulent activities</li>
+              <li>Improve user experience</li>
+              <li>Comply with applicable Indian laws</li>
+            </ul>
+            <p class="pp-note"><em>Jobey does not sell personal data to third parties.</em></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion item 5 -->
+      <div class="acc-item" id="acc-5">
+        <button class="acc-btn" aria-expanded="false">
+          <span class="acc-icon">🕐</span>
+          <span class="acc-label">Data Retention &amp; Your Rights</span>
+          <span class="acc-chevron">›</span>
+        </button>
+        <div class="acc-panel">
+          <div class="acc-content">
+            <p>User information is retained for as long as the account remains active or as required for legal compliance, dispute resolution, or fraud prevention. Users may request correction or deletion of their information by contacting us, subject to applicable legal retention requirements.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Inquiries card -->
+      <div class="pp-inquiries">
+        <div class="pp-inq-title">Privacy-Related Inquiries</div>
+        <div class="pp-inq-row"><span>✉️</span> getjobey@gmail.com</div>
+        <div class="pp-inq-row"><span>📞</span> +91 98946 65847</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="contact-section" id="contact">
+    <div class="contact-header">
+      <p class="contact-tag">Get in touch</p>
+      <h2>We're here to help</h2>
+    </div>
+    <div class="contact-cards">
+      <div class="cc" id="cc-email">
+        <div class="cc-icon">✉️</div>
+        <div class="cc-label">Email Support</div>
+        <div class="cc-val">getjobey@gmail.com</div>
+      </div>
+      <div class="cc" id="cc-chat">
+        <div class="cc-icon">💬</div>
+        <div class="cc-label">In-App Chat</div>
+        <div class="cc-val">Available 24/7</div>
+      </div>
+      <div class="cc" id="cc-loc">
+        <div class="cc-icon">📍</div>
+        <div class="cc-label">Jurisdiction</div>
+        <div class="cc-val">Chennai, Tamil Nadu</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="footer-wrap">
+      <div class="footer-brand">
+        <span class="logo-icon">◉</span> Jobey
+        <p>India's part-time gig platform connecting workers and recruiters instantly.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#how">How It Works</a>
+        <a href="#features">Features</a>
+        <a href="#terms">Terms</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer-copy">© 2025 Jobey. All rights reserved. Governed by the laws of India.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
